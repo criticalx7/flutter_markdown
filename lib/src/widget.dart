@@ -183,7 +183,6 @@ class MarkdownBody extends MarkdownWidget {
 
   @override
   Widget build(BuildContext context, List<Widget> children) {
-    if (children.length == 1) return children.single;
     return new Column(
       crossAxisAlignment: textAlign == TextAlign.left
           ? CrossAxisAlignment.start
